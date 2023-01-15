@@ -1,7 +1,7 @@
 import { router } from "./router";
 
 const mountView = (app, view) => {
-  app.innerHTML = router[view].template();
+  router[view].template(app);
 };
 
 export const createApp = () => {

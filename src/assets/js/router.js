@@ -4,18 +4,18 @@ import scoreTable from "./views/gameField";
 
 export const router = {
   mainMenu: {
-    template: () => {
-      return mainMenu();
+    template: (app) => {
+      return mainMenu(app);
     },
   },
   scoreTable: {
-    template: () => {
-      return scoreTable();
+    template: (app) => {
+      return scoreTable(app);
     },
   },
   gameField: {
-    template: () => {
-      return gameField();
+    template: (app) => {
+      return gameField(app);
     },
   },
 };
