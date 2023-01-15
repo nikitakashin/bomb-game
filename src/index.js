@@ -1,5 +1,4 @@
-import "./styles/main.scss";
+import "./assets/css/main.scss";
+import { createApp } from "./assets/js/app";
 
-addEventListener("DOMContentLoaded", (evt) => {
-  const app = document.querySelector("#app");
-});
+addEventListener("DOMContentLoaded", createApp);
